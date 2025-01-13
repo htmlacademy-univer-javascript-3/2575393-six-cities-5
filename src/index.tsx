@@ -7,6 +7,8 @@ import {fetchUserData, fetchOffersAction} from './store/api-actions.ts';
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
+const offersNumber = 10;
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
