@@ -1,0 +1,43 @@
+.page--not-found{
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.page--not-found__left-section,
+.page--not-found__right-section {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page--not-found__right-section {
+  margin-left: -12px;
+  width: calc(50% + 12px);
+}
+
+.page--not-found__to-main-button{
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: #4481c3;
+  transform: skew(-6.5deg);
+  &:hover{
+    opacity: .75;
+  }
+}
+.page--not-found__image {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-image: url('public/img/no-places.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
